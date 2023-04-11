@@ -16,8 +16,12 @@ let config = {
         //autoCenter: Phaser.Scale.CENTER_BOTH
     },
     //backgroundColor: '#000000',
-    scene: [preloadScene, level1, level2]
+    scene: [mainScene, storyScene, instructions1, rulesPage, listScene, listScene2, listScene3, gameoverScene, winScene, level1, level2, level3]
 };
 
 let game = new Phaser.Game(config);
 
+window.heart = 3
+window.level1food = 0
+window.level2food = 0
+window.level3food = 0
