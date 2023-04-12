@@ -1,2 +1,2 @@
 # MA1
-https://peyjenn.github.io/MA1/myGame/
+https://peyjenn.github.io/MA1/Bearkery/
