@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="40" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="3">
+ <editorsettings>
+  <export target="bakery.tmj" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="1_Generic_32x32" tilewidth="32" tileheight="32" tilecount="1248" columns="16">
+  <image source="../../../Downloads/1_Generic_32x32.png" width="512" height="2496"/>
+  <tile id="464">
+   <properties>
+    <property name="whiteborder1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="whiteborder1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="496">
+   <properties>
+    <property name="whiteborder1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="838">
+   <properties>
+    <property name="woodentable2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="839">
+   <properties>
+    <property name="woodentable2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="854">
+   <properties>
+    <property name="woodentable2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="855">
+   <properties>
+    <property name="woodentable2" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1249" name="16_Grocery_store_32x32" tilewidth="32" tileheight="32" tilecount="1248" columns="16">
+  <image source="16_Grocery_store_32x32.png" width="512" height="2496"/>
+  <tile id="442">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="443">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="444">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="445">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="446">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="447">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="458">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="459">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="460">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="461">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="462">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="463">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="464">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="465">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="466">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="467">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="468">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="474">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="475">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="476">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="477">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="478">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="479">
+   <properties>
+    <property name="shelf1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="480">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="481">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="482">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="483">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="484">
+   <properties>
+    <property name="table1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="490">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="491">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="492">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="493">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="494">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="495">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="506">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="507">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="508">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="509">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="510">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="511">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="522">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="523">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="524">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="525">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="526">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="527">
+   <properties>
+    <property name="shelf2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="551">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="552">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="563">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="564">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="565">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="567">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="568">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="579">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="580">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="581">
+   <properties>
+    <property name="glass1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="583">
+   <properties>
+    <property name="breadTrolley" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="584">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="599">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="600">
+   <properties>
+    <property name="breadTrolley" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="615">
+   <properties>
+    <property name="breadTrolley2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="616">
+   <properties>
+    <property name="breadTrolley2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="631">
+   <properties>
+    <property name="breadTrolley2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="632">
+   <properties>
+    <property name="breadTrolley2" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="2497" name="12_Kitchen_32x32" tilewidth="32" tileheight="32" tilecount="784" columns="16">
+  <image source="12_Kitchen_32x32.png" width="512" height="1568"/>
+  <tile id="243">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="244">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="245">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="259">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="260">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="261">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="275">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="276">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="277">
+   <properties>
+    <property name="woodentable" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="612">
+   <properties>
+    <property name="donut1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="613">
+   <properties>
+    <property name="donut1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="628">
+   <properties>
+    <property name="donut1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="629">
+   <properties>
+    <property name="donut1" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="672">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="673">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="674">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="675">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="688">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="689">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="690">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="691">
+   <properties>
+    <property name="donut2" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3281" name="2_LivingRoom_32x32" tilewidth="32" tileheight="32" tilecount="720" columns="16">
+  <image source="2_LivingRoom_32x32.png" width="512" height="1440"/>
+  <tile id="388">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="389">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="404">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="405">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="420">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="421">
+   <properties>
+    <property name="fireplace" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="603">
+   <properties>
+    <property name="firewood" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="619">
+   <properties>
+    <property name="firewood" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="4001" name="Room_Builder_32x32" tilewidth="32" tileheight="32" tilecount="8284" columns="76">
+  <image source="../../../Downloads/Room_Builder_32x32.png" width="2432" height="3488"/>
+  <tile id="467">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="468">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="469">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="543">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="544">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="545">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="619">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="620">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="621">
+   <properties>
+    <property name="whiteborder" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2508">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2509">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2510">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2511">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2512">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2513">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2514">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2515">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2516">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2517">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2584">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2585">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2586">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2587">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2588">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2589">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2590">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2591">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2592">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2593">
+   <properties>
+    <property name="wall" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5676">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5677">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5678">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5679">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5680">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5681">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5682">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5683">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5752">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5753">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5754">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5755">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5756">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5757">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5758">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5759">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5828">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5829">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5830">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5831">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5832">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5833">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5834">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5835">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5904">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5905">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5906">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5907">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5908">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5909">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5910">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5911">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5980">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5981">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5982">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5983">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5984">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5985">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5986">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5987">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6056">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6057">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6058">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6059">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6060">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6061">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6062">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6063">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6132">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6133">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6134">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6135">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6136">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6137">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6138">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6139">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6208">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6209">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6210">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6211">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6212">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6213">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6214">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="6215">
+   <properties>
+    <property name="walls" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="12285" name="Wood" tilewidth="32" tileheight="32" tilecount="8640" columns="180">
+  <image source="Wood.png" width="5760" height="1536"/>
+ </tileset>
+ <tileset firstgid="20925" name="24_Ice_Cream_Shop_32x32" tilewidth="32" tileheight="32" tilecount="272" columns="16">
+  <image source="../../../Documents/Multimedia authoring 1/24_Ice_Cream_Shop_32x32.png" width="512" height="544"/>
+ </tileset>
+ <tileset firstgid="21197" name="TileAndStone" tilewidth="32" tileheight="32" tilecount="1944" columns="36">
+  <image source="TileAndStone.png" width="1152" height="1728"/>
+ </tileset>
+ <layer id="2" name="floorLayer" width="40" height="25">
+  <data encoding="csv">
+22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14475,14476,14477,14475,14476,
+22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,22032,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14475,14476,14477,14475,14476,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14477,14475,14476,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14477,14475,14476,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14475,14655,14656,14475,14476,14477,14475,14476,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14655,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14475,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14655,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14475,14476,14477,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14475,14655,14656,14655,14656,14655,14656,14657,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14655,14655,14656,14475,14476,14477,14475,14476,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14475,14476,14477,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14475,14655,14656,14475,14476,14477,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14655,14655,14656,14475,14476,14477,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14656,14476,14477,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14477,14655,14656,14656,14476,14477,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14475,14655,14656,14656,14475,14475,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14655,14655,14656,14656,14655,14655,14655,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14656,14656,14656,14656,14656,14656,14656,14656,
+4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,4960,14656,14656,14477,14477,14655,14656,14656,14656,
+14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14655,14656,14656,14656,14656,14656,14656,14656,14656,14477,14477,14655,14656,14656,14656,
+14475,14475,14475,14475,14475,14475,14475,14475,14475,14475,14475,14475,14477,14477,14477,14477,14477,14477,14477,14477,14477,14477,14475,14475,14475,14655,14656,14656,14656,14656,14656,14656,14656,14656,14475,14475,14655,14656,14656,14656,
+14655,14655,14655,14655,14655,14655,14655,14655,14655,14655,14655,14655,14475,14475,14475,14475,14475,14475,14475,14475,14475,14475,14655,14655,14655,14655,14656,14656,14656,14656,14656,14656,14656,14656,14655,14655,14655,14656,14655,14656
+</data>
+ </layer>
+ <objectgroup id="7" name="objectLayer">
+  <object id="1" name="start" x="254.667" y="572">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="wallsLayer" width="40" height="25">
+  <data encoding="csv">
+9908,9908,9908,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,9909,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6517,6518,
+9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,9984,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6593,6594,
+4546,0,0,0,0,0,0,0,0,0,0,0,2993,2994,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,8607,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,9755,9908,9908,9908,9908,9908,9908,6511,0,0,0,0,0,0,0,9753,9908,9908,9908,9908,9908,9909,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,9831,9984,9984,9984,9984,9984,9984,6587,0,0,0,0,0,0,0,9829,9984,9984,9984,9984,9984,9985,0,0,0,0,0,0,0,0,
+4546,2740,2741,2741,2741,2741,2741,2741,2741,2742,9907,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9908,9908,9908,9908,9908,9908,9908,9908,9908,9909,9983,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9984,9985,9985,9985,9985,9985,9985,9985,9985,9985,10059,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="itemLayer" width="40" height="25">
+  <data encoding="csv">
+4470,3729,701,702,1773,1774,1774,1774,1774,1774,1744,0,644,2147484292,732,733,734,3026,3027,0,0,0,0,0,1773,1774,1774,1774,1774,1774,1744,481,0,0,3723,3724,3675,3676,3723,3724,
+4546,3745,717,718,1755,1756,1758,1758,1758,1759,1760,2472,660,2147484308,748,749,750,3042,3043,0,0,0,0,0,1755,1756,1758,1758,1758,1759,1760,481,2474,0,3739,3740,3691,3692,3739,3740,
+3177,1681,1681,1681,1771,1772,1772,1772,1772,1772,1776,2488,0,0,764,765,766,3058,3059,0,0,3884,0,0,1771,1772,1772,1772,1772,1772,1776,481,2490,0,3755,3756,3707,3708,3755,3756,
+3176,1681,1681,1681,1681,1681,1681,1681,1681,1681,0,0,0,0,0,0,0,0,0,0,0,3900,0,0,0,0,0,0,0,0,0,481,21045,0,0,0,21044,21044,21044,0,
+3176,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,481,0,0,0,0,0,0,0,0,
+3176,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,481,0,0,21045,21008,21044,21009,0,0,
+3176,2710,0,0,0,0,0,0,0,0,0,1868,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1868,481,0,0,21045,21024,21005,21025,0,0,
+3176,2726,0,0,0,0,0,0,0,0,0,1884,242,0,0,0,0,3404,0,0,0,0,0,0,0,3404,0,0,0,1023,1884,481,0,0,21045,21040,21021,21041,0,0,
+3193,0,2835,2833,2899,2899,2899,2835,2835,0,0,257,258,0,0,0,0,3420,0,0,0,0,0,0,0,3420,0,0,0,1039,0,481,0,0,21045,21045,21044,21044,0,0,
+4546,0,0,2899,2899,2899,2899,2899,2899,1836,0,0,0,4233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1864,1865,481,0,0,21045,21008,21044,21009,0,0,
+4546,0,0,2899,2899,2899,2899,2899,1841,1852,0,0,0,4309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1864,1865,481,0,0,21045,21024,21005,21025,0,0,
+2899,2899,2899,2899,2899,2899,2899,2899,1857,1843,1843,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1880,1881,481,0,0,21045,21040,21021,21041,0,0,
+0,0,0,2899,0,2899,2899,2899,2899,1859,1859,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,1801,481,0,0,21045,21044,21044,21044,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,1801,481,0,0,21045,21008,0,21009,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,1801,481,0,0,21045,21024,21005,21025,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1800,1801,481,0,0,21045,21040,21021,21041,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1832,1833,481,0,0,21045,9512,9512,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1848,1849,481,0,0,21045,21008,21044,21009,0,0,
+0,0,0,0,0,0,0,2609,2610,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,481,0,0,21045,21024,21005,21025,0,0,
+0,0,0,0,0,0,0,2625,2626,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,481,0,0,21045,21040,21021,21041,0,0,
+1714,1688,1704,1690,1689,3240,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1715,1716,0,0,21045,21045,21044,21044,0,0,
+1730,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1731,1732,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="decoLayer" width="40" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,4621,4621,0,0,0,0,0,0,0,0,3653,3654,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,
+0,0,0,0,0,3276,3276,3244,3244,3244,0,0,0,0,0,0,0,0,0,0,0,0,3669,3670,0,3276,3276,3244,3244,3244,0,0,21045,0,0,0,0,0,0,0,
+4546,0,0,0,0,3242,3242,3262,3276,3276,0,0,0,0,0,0,0,0,0,0,0,0,3685,3686,0,3242,3242,3262,3276,3276,0,0,2322,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3701,3702,0,0,0,0,0,0,0,0,2338,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3406,0,0,0,0,0,0,0,3406,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,0,0,0,0,0,0,0,0,0,0,669,670,0,0,0,0,3422,0,0,0,0,0,0,0,3422,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4546,1692,1695,1739,1740,1741,1742,1743,1744,0,0,685,686,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1707,1708,1711,1755,1756,1757,1758,1759,1760,4233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1723,1724,1724,1771,1772,1772,1772,1759,1776,4309,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3280,0,0,0,
+1723,1724,1724,1771,1772,1772,1772,1772,1776,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,3263,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3109,3110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,3125,3126,0,0,0,0,0,0,1798,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1812,1813,1813,1813,1813,1813,1814,1790,1791,0,3185,3186,0,3248,3274,3278,3260,3258,1814,0,0,0,0,0,0,3248,3274,3278,3260,3258,2364,497,0,0,0,0,0,0,0,0,
+1792,1829,1829,1829,1829,1829,1830,0,0,0,0,0,0,0,0,0,0,0,1830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1808,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="6" name="deco2Layer" width="40" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,1696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,3260,3276,1712,1688,1718,1687,1719,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,3274,3278,1728,1722,1704,1720,1705,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,3258,1728,3253,3254,3249,3251,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,528,528,528,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,528,528,528,528,1799,1799,1799,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3025,0,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3041,0,0,0,21045,0,0,0,0,0,
+489,0,0,0,0,0,291,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1799,3057,0,0,0,21045,0,0,0,0,0,
+505,0,0,0,0,0,0,0,0,3361,3123,3108,1812,1815,1815,1815,1815,1815,2417,2417,2417,2417,2417,2417,1812,1815,1815,1815,1815,1815,2417,2418,0,0,21045,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,3377,0,0,1828,1831,1831,1831,1831,1831,0,0,0,0,0,0,1828,1831,1831,1831,1831,1831,2433,2434,2435,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2449,2450,2451,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
